@@ -6,16 +6,17 @@ body {
 header {
     width: 1200px;
     float: left;
+    margin-top: 30px;
     margin-left: calc(50% - 600px);
     background-color: yellow;
 }
 
 header > img {
     float: left;
-    /* width: 100px; */
-    height: 100px;
+    width: 150px;
+    height: 60px;
     object-fit: contain;
-    background-color: blue;
+    object-position: left;
 }
 
 nav {
@@ -23,12 +24,26 @@ nav {
 }
 
 nav > a {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 5px;
+    border-style: solid;
+    /* border-color: transparent; */
+    border-color: blue;
 
+}
+nav > a:last-of-type {
+    margin-left: 15px;
+    border-color: red;
 }
 
 main {
     float: left;
     width: 1200px;
+    margin-top: 30px;
     margin-left: calc((100% - 1200px) / 2);
     background-color: pink;
 }
