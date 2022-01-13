@@ -46,26 +46,32 @@ main {
     width: 1200px;
     margin-top: 30px;
     margin-left: calc((100% - 1200px) / 2);
-    background-color: pink;
+    color: #777;
 }
 
 div {
     float: left;
-    width: 42%;
+    width: 31%;
+    margin-top: 100px;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 h1 {
+    margin: 0;
+    font-size: 120px;
+    
 }
 
 p {
+    margin: 0;
+    font-size: 30px;
 }
 
 main > img {
     float: right;
     width: 50%;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-right: 2%;
 }
 
