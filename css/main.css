@@ -5,14 +5,13 @@ body {
     color: #777;
 }
 
-header {
+.main-header {
     width: 1200px;
     float: left;
     margin-top: 30px;
     margin-left: calc(50% - 600px);
 }
-
-header > img {
+.logo {
     float: left;
     width: 150px;
     height: 60px;
@@ -20,12 +19,12 @@ header > img {
     object-position: left;
 }
 
-nav {
+.main-nav {
     float: right;
     margin-top: 11px;
 }
 
-nav > a {
+.link {
     float: left;
     padding: 5px;
     padding-left: 15px;
@@ -37,19 +36,19 @@ nav > a {
     border-radius: 19pt;
 
 }
-nav > a:last-of-type {
+.link:last-of-type {
     margin-left: 15px;
     border-color: #777;
     }
 
-main {
+.content {
     float: left;
     width: 1200px;
     margin-top: 30px;
     margin-left: calc((100% - 1200px) / 2);
     }
 
-div {
+.text {
     float: left;
     width: 27%;
     margin-top: 100px;
@@ -57,19 +56,19 @@ div {
     margin-right: 3%;
 }
 
-h1 {
+.title {
     margin: 0;
     font-size: 120px;
     font-weight: bold;
     font-family: monospace;
 }
 
-p {
+.description {
     margin: 0;
     font-size: 30px;
 }
 
-main > img {
+.main-img {
     float: right;
     width: 50%;
     margin-left: 3%;
